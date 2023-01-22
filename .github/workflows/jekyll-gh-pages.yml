@@ -3,6 +3,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   # Runs on pushes targeting the default branch
+  
   push:
     branches: ["main"]
 
@@ -22,6 +23,7 @@ concurrency:
 
 jobs:
   # Build job
+  
   build:
     runs-on: ubuntu-latest
     steps:
